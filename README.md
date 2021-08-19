@@ -11,14 +11,16 @@ Steps:
 #How to Create API using this
 
 #Sample views.py file
+
+
 	from app.models import Subject
 	from app.serializer import SubjectSerializer
 	from CreateApis.ApiCreator_library.ApiCreator import ApiCreator 
-	
+
 	class SubjectView(ApiCreator):
-    		model = Subject
-    		model_serializer = SubjectSerializer
-    		JWT_permission_on = ["POST", "PUT", "DELETE"]
+		model = Subject
+		model_serializer = SubjectSerializer
+		JWT_permission_on = ["POST", "PUT", "DELETE"]
     		
 # Sample urls.py file
 	from app.views import SubjectView
