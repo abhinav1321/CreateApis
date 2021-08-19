@@ -8,9 +8,9 @@ Steps:
 		
 		$ pip3 install requirements.txt
 
-#How to Create API using this
+# How to Create API using this
 
-#Sample views.py file
+# Sample views.py file
 
 
 	from app.models import Subject
