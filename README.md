@@ -5,7 +5,8 @@ A quick way to make APIs for Django-Rest-Framework Project
 Steps: 
 	1. Clone the project inside Django Application
 	2. Install required libraries using requirements.txt file
-		Go to terminal: pip3 install requirements.txt
+		
+		$ pip3 install requirements.txt
 
 #How to Create API using this
 
